@@ -1,0 +1,42 @@
+h1
+{
+            color:antiquewhite
+            background-color:gray;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            font-size: 50pt;
+            border: 7px line darkgray;
+            text-shadow: 5px 5px 5px black;
+            border-radius: 25px;
+            word-spacing: 10px;
+
+
+}
+
+h2{
+
+    color:rgb(240, 152, 38)
+            background-color:white;
+            text-align: center;
+            text-transform: uppercase;  
+            font-size: 50pt;
+            border: 7px solid color darkgray;
+            text-shadow: 5px 5px 5px black;
+            border-radius: 25px;
+            word-spacing: 10px;
+}
+
+h3{
+
+    color:rgb(15, 190, 68)
+            background-color:blueviolet;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            font-size: 50pt;
+            border: 7px dotted darkgray;
+            text-shadow: 5px 5px 5px black;
+            border-radius: 25px;
+            word-spacing: 10px;
+}

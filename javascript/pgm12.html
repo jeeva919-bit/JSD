@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Switch</title>
+
+    <script>
+        function show() {
+            var val = document.getElementById("t1").value.toLowerCase();
+
+            switch (val) {
+                case "125":
+                    document.getElementById("imgL").src = "./image/125.jpg";
+                    break;
+
+                case "200":
+                    document.getElementById("imgL").src = "./image/200.jpg";
+                    break;
+
+                case "250":
+                    document.getElementById("imgL").src = "./image/250.jpg";
+                    break;
+
+                case "390":
+                    document.getElementById("imgL").src = "./image/390.jpg";
+                    break;
+
+                default:
+                    document.getElementById("imgL").src = "./image/490.jpg";
+                    break;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        Enter the Value:
+        <input type="text" id="t1" placeholder="Enter the value" onkeyup="show()">
+
+        <br><br>
+
+        <img id="imgL" src="./image/490.jpg" width="300">
+    </center>
+</body>
+</html>
