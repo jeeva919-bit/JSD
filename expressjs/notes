@@ -1,0 +1,60 @@
+express js:
+==========
+
+     def: runtime or dynamic backend enviroment.
+
+     meaning: to go value from enduser.
+
+     application: html/ react js (from inputs)
+
+      installatiom:npm install express
+
+      two methods:
+      1.get method (default)
+      use: it will show all the from input value in URL
+      2.post method
+      use: it won't show all the from input value in URL
+      (high security-must know about body-parser)
+
+
+
+
+      body-parser:
+============
+	hiding form input values in Address bar.
+
+use: 
+	it is high security .(do not show password or any form input value in URL)
+
+
+installation:
+=============
+	d:/projectfolder>npm install body-parser
+
+module import:
+==============
+	var bp=require("body-parser")
+
+declaration:
+============
+
+	var urlencodeparser=bp.urlencoded({extended:false})
+
+how to use function in post method(body parser)?
+================================================
+note: apply 3 parameters or arguments
+1.userdefined functionname 
+2.urlencodeparser
+3.arrow function
+
+app.post("/funname",urlencodeparser,(req,res)=>{
+
+	var data1=req.body.t1
+	var data2=req.body.t2
+	//output in browser
+	res.send("browser print"+data1...)	
+}).listen(portno)
+
+note:
+here t1,t2 -->html form input names
+don't forget to add method="post" form attributes in html file
