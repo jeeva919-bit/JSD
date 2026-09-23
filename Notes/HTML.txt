@@ -1,0 +1,2241 @@
+04.08.2026
+open with live server shortcut key alt+l(o and c)
+list
+    Order list-ol
+    Unorder list-ul
+    definition list-dl
+type
+    1.type="I" - I II III IV
+    2.type="A" - A B C D
+    3.type=" " - square, circle, disc
+link
+
+table task:
+
+05.08.2026
+
+form action="" provide the hyperlink
+placeholder inside the text in the box
+method get is show the webpage details and allow the data. get is default method.(web information, hyperlink show the details like user name, password)
+method post is secure the data does not share and show the data.
+normal <button> is allow create animation,color,bold text, font styles, extra
+<input type="button"> is does not allow the animation,color,bold text, font styles.extra
+<input type="reset"> clear the all data in the webpage.
+combobox or dropdown tags
+difference between combobox and radio button
+difference between button and sumbit button
+alt+z is line lap
+
+07.08.2026
+CSS:
+cascading style sheet
+use: web page excellent design in easy way
+
+invented by:W3C company.(World Wide Wen Consoritum)
+
+year:1996(level 1 dec 17)
+
+css created by Hakon Wium Lie and Bert Bos.
+
+three types of css:
+1.inline css - with in a tag
+2.internal css - head tag + whole single html program
+3.external css - head tag + one or more html program
+
+<!-- border-style:solid, dotted, dashed, double, groove, ridge, inset, outset, none, hidden;-->
+id attribute declear symbol of #
+class attribute declear symbol of .
+
+10.08.2026
+title: position
+type:
+    static ---->default
+        *)seprate place
+        *)scrolling: yes
+        *)outside screen: yes
+        *)left, right,top,bottom:no
+    absoluate
+        *)no seprate place
+        *)scrolling: yes
+        *)outside screen: yes
+        *)left, right,top,bottom:yes
+    fixed
+        *)no seprate place
+        *)scrolling: no
+        *)outside screen: no
+        *)left, right,top,bottom:yes
+    relative
+        *)seprate place: yes
+        *)scrolling: yes
+        *)outside screen: yes 
+        *)left, right,top,bottom:yes (but previous tag)
+    sticky
+        *)seprate place: yes
+        *)scrolling: yes
+        *)outside screen: no
+        *)left, right,top,bottom:yes
+
+11.08.2026
+inline, block
+
+12.08.2026
+JAVA SCRIPT:
+============
+* in 1995 first introduced by Brendan Eich
+* starting name: livescript
+* developed ECMAscript-262(organization approved by ISO)
+* only netscape navigator 2.0 first worked
+* all browsers worked from 1996
+* javascript extension:js
+* main use: directly interact with html codes
+* java and javascript are different
+* joining operator + or concatenation operator
+* javascript is a interpreter(line by line error check)
+* javascript is a loosly type checked language.
+
+var=10; ----> integer
+var b=10.20; ----->float
+var c="text0123"; ---->string
+
+general format:
+===============
+
+<html>
+<head>
+<script type="text/javascript">
+.........
+</script>
+<head>
+<body>
+................
+</body>
+</html>
+
+document.write(""); - webpage or browsers
+console.log(""); - f12 is console
+
+different between var, let, Consant
+var & let ----> we can change the value.
+const ----->we can't change the value.
+
+var: ---------> global
+let & const: ------> local scope
+parseInt ---> text convert into integer
+parsefloat ---> text convert into float
+
+13.08.2026
+
+innerHTML:
+===========
+
+purpose : do not hide html form elements.
+
+syntax:
+
+document.getElementById
+("id").innerHTML=youroutput;
+
+HW:
+1. given no. is even or odd
+2. given no. is +ve/ -ve / 0
+3. given year is leap or not
+
+empty elements or space shortcut alt+0160
+<pre></pre> space tag
+
+14.08.2026
+
+ctrl+/ is command remove/show
+
+17.08.2026
+Tab is use to moving outside cursor
+while loop:
+==========
+
+initial;
+while(condition)
+{
+    statement;
+    increment/decrement; // ++ -- * /
+}
+
+ex:
+var i=1;
+while(i<=10)
+{
+    i++;
+    d.w(i);
+}
+
+output:
+    2 3 4 5 ......... 11
+
+HW:
+for loop:
+========
+1. find given no. is prime or not a prime
+while loop:
+==========
+2. sum of digits
+ex:
+    1234
+output:10
+
+3. display even numbers
+ex:
+    1234
+output: 24
+4. sum of even numbers
+ex:
+    1234
+output: 6
+
+Array:
+	def: a set of value arranged in sequential of single name variable ia known as array.
+Array Syntax:
+	Var variablename=new Array(size);
+Array Syntax:
+	var variablename[]={value1,value2.....}
+array index always start from:0
+inbuild:
+arrayvariablename.length
+
+18.08.2026
+===========
+hw:
+1. find highest number using array
+2. sum of array
+3. sum of even number in array
+4. count the odd number in an array
+5. ascending Order
+
+nested loop
+===========
+
+for(var i=1;i<=5;i++)
+{
+    for(var j=1;j<=5;j++)
+    {
+        document.write(" "+i+j);
+    }
+    document.write("<br>");
+}
+
+output:
+=======
+11 12 13 14 15
+21 22 23 24 25
+31 32 33 34 35
+41 42 43 44 45
+51 52 53 54 55
+
+normal function:
+================
+function functionname()
+{
+    ................
+}
+
+arrow function:
+===============
+var/let/const function=()=>{
+
+}
+
+ex:
+var dis=()=>{
+
+}
+
+arrgument pass
+==============
+ex:
+var dis=(a,b,c)=>{
+    tot=a+b+c;
+    alert(tot);
+}
+
+react install(command prompt)
+step 1: cd react
+step 2: npm install -g create-react-app(policy error)
+step 3: npx create-react-app . or npx create-react-app myproject
+step 4: cd myproject
+step 5: npm start
+step 6: ctrl c stop
+
+19.08.2026
+
+react
+======
+{}-->Expression
+
+1. index.html 2. index.js 3. App.js  commonly used file
+
+npm - Node Package Manager
+npx - Node Package Excuter
+
+two type of component
+1. function component
+2. class component
+
+1. function component
+=====================
+ex:
+function App()
+{
+return(
+  <h1>welcome to react js</h1>
+)
+}
+export default App;
+
+group of taggs:<></>
+==============
+ex:
+function App()
+{
+return(
+  <>
+  <h1>welcome to react js</h1>
+  <h2>welcome to react js</h2>
+  <h3>welcome to react js</h3>
+  </>
+)
+}
+
+2. class component
+==================
+import React from "react";
+class App extends React.Component
+{
+  render(){
+    return(
+      <>
+        <h1>welcome to react js</h1>
+        <h2>welcome to react js</h2>
+        <h6>welcome to react js</h6>
+      </>
+    )
+  }
+}
+export default App;
+
+React Expression:
+=================
+arrow function:
+var App=()=>{
+  var a=10
+  var b=20
+  var c=30
+  return(
+    <>
+    <h1>Welcome to React Expression</h1>
+    <h2>A value:{a}</h2> //does not declear the var const let inside the return, only declear return above
+    <h2>B value:{b}</h2>
+    <h2>C value:{c}</h2>
+    <h2>Total values:{a+b+c}</h2>
+    </>
+  )
+}
+export default App;
+
+short cut key rfc  or rfce 
+
+import React from 'react'
+
+control Statement:
+==================
+1. Simple If Statement:
+
+Example:
+function App() {
+  var mark=100;
+  return (
+    <div>
+      <h1>1. Simple If Statement</h1>
+      <h2>Mark : {mark}</h2>
+      <h2>Result:</h2>
+      <h2>{mark>34 && "PASS"}</h2>
+      <h2>{mark<=34 && "FAIL"}</h2>   
+    </div>
+  )
+}
+
+export default App
+
+2.if else Statement
+
+Example:
+
+function App() {
+  var mark=100;
+  return (
+    <div>
+      <h1>2.if else Statement</h1>
+      <h2>Mark : {mark}</h2>
+      <h2>Result:</h2>
+      <h2>{(mark>34 && "PASS") || "FAIL"}</h2>   
+    </div>
+  )
+}
+
+export default App
+
+Example1:
+/*import React from 'react'
+
+function App() {
+  var n1=100;
+  var n2=1001;
+  return (
+    <div>
+      <h1>greatest among 2 numbers using if else</h1>
+
+      <h2>number 1: {n1}</h2>
+      <h2>number 2: {n2}</h2>
+    <h2>{(n1>n2 && " Number 1 is biggest") || "Number 2 is biggest"}</h2>
+    </div>
+  )
+}
+export default App
+
+3. if else if Statement or else if ladder
+
+Example:
+import React from 'react'
+
+function App() {
+  var n=0;
+  return (
+    <div>
+      <h1>3. if else if Statement or else if ladder</h1>
+      <h2>{n} is {(n>0 && "+ve") || (n<0 && "-ve")|| "zero"}</h2>
+    </div>
+  )
+}
+
+export default App
+
+4.nested if Statement
+
+Example:
+function App() {
+  var avg=90;
+  var res="fail";
+  return (
+    <div>
+      <h1>4. Nested if</h1>
+      <h1>Grade System:</h1>
+      <h2>
+        { 
+        (res==="pass" && ((avg>=85 && "outstanding") || 
+        (avg>=75 && "excellent")||
+        (avg>=65 && "very good") || 
+        (avg>=55 && "good") || 
+        "fair")) || "no grade"
+        }
+      </h2>
+    </div>
+  )
+}
+
+Array:
+=====
+
+20.08.2026
+=========
+
+json:
+  javascript object notation
+
+two types:
+  1) normalized json
+  2) denormalized or embed json
+
+1) normalized
+  var stud={
+    rno:47,
+    sname:"Keerthi",
+    mark:30,
+    grade:"b",
+    result:"PASS"
+  }
+
+2) denormalized
+var stud={
+  rno:1991,
+  sname:"Keerthi",
+  mark:{
+    tamil:100,
+    english:100,
+    maths:100,
+    science:100,
+    social:100
+  },
+  rank:1
+}
+
+purpose:
+  *) light weight process
+  *) fast access
+  *) no sql
+  *) paragraph format
+  *) unstructured format
+
+  HW:
+  input: i love javascript program
+  output: highest length of text:
+          javascript
+
+1. git add .
+1.1 git status - check the update file
+2. git commit -m "massage"
+3. git push
+
+
+21.08.2026
+
+data passing one proparty to another
+share data from one Component to another Component using props
+
+index.js to App.js
+
+1. index.js
+============
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+var sname="KEERTHIVASAN G"
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App data={sname}/>
+  </React.StrictMode>
+);
+
+2. App.js
+=========
+import React from 'react'
+
+function App(props) {
+  return (
+    <div>
+      <h1>props: properties</h1>
+      <h2>share data from one Component to another Component</h2>
+      <h2>Your Name: {props.data}</h2>
+    </div>
+  )
+}
+
+export default App
+
+output:
+======
+
+props: properties
+share data from one Component to another Component
+Your Name: KEERTHIVASAN G
+
+rfce package is doesn't show install es7 from the extension 
+
+&gt; - < greater than symbol
+&lt; - < Less than symbol
+
+22.08.2026
+
+24.08.2026
+=========
+open weather api
+
+API:
+====
+
+open weather api
+
+API key: 5b866b22d1c4ae4d8113a8a6af8ef186
+
+api format:
+https://api.openweathermap.org/data/2.5/weather?q=karur&appid=5b866b22d1c4ae4d8113a8a6af8ef186
+
+npm install axios
+
+postman installation
+
+npm install axios
+
+what is the purpose of using useState Hook?
+  ---> Runtime data Management
+  ---> automatically update DOM when state changes.
+
+  notes:
+  step 1:
+  header file:
+  import {useState} from 'react'
+
+  step 2:
+  declearation
+
+  const [var,setVar]=useState("default value)
+  ex:
+  const [city,setCity]=useState("Salem")
+
+  step 3:
+
+  <input type="text"  value={city} onChange={(e)=>dis(e)}></input>
+
+  step 4:
+  change the state: (important)
+  setCity("yourvalue")
+
+  ex:
+    const dis=(Event)=>{
+      setCity(Event.target.value)
+    }
+
+axios use maintain the restful api 
+
+get-
+put-
+post-
+delete-
+
+catch-
+finally-
+then-
+
+25.08.2026
+
+async - 
+await -
+
+
+html status codes:
+
+200 - successed(integer)
+"404" - fail(string)
+
+deployment:(live)
+step 1: change file direction like,(cd reactjs\myproject)
+step 2: npm install gh-pages --save-dev - command
+step 3: click open package.json file(VS code) after go to github 
+step 4: after go to github find project copy the link
+step 5: delete the tree and main (/tree/main) from the line ("https://github.com/gkeerthivasan42-ui/Java-Full-Stack-Development-Course/tree/main/reactjs/myproject",)
+step 6: package.json add "homepage": "https://github.com/gkeerthivasan42-ui/Java-Full-Stack-Development-Course/reactjs/myproject",
+step 7: next go to package.json go to section ("scripts") add this one "predeploy":"npm run build", then this one "deploy":"gh-pages -d build",
+step 8: go to command prompt or terminal npm run deploy
+step 9: npm run deploy - command
+
+
+"script":{
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build"
+}
+
+27.08.2026
+
+MangoDB:(smilar to json,api,reactjs) (JSON===paragraph===document)
+========
+1. MangoDB Download (859mb) and install
+2. MongoDB shell download (62.2mb) and install is path:(C:\Users\keert\AppData\Local\Programs\mongosh\) then copy of the file mongosh
+3. copy the mongosh into program file MangoDB folder paste mongosh
+4. copy the current folder path insert to this pc and create the environmental path
+introduuction to MangoDB (json) python(dictionary)
+========================
+
+MangoDB is an open source, document oriented(paragraph format)
+database that stores data in from of document (key and value pairs)
+
+document based example:
+=======================
+var stud={
+  rno:1001
+  name:"Keerthi",     //field:value
+  age:23,
+  website:"www.Keerthi.com",
+  hobbies: ["Movies","sports","singing"]
+}
+
+Nested Json:
+===========
+var emp:{
+  eno:1,
+  ename:'KEERTHIVASAN G',
+  esal:1000000.00,
+  desig:"Software Engineer",
+  qual:"B.E"
+  prevemplocation:{city:'Salem',city:'chennai',city:'Covai'}
+}
+this is a JSON like structure.
+where data is stored in form of key and value pairs.
+
+History of MangoDB:
+===================
+MangoDB was created by Eliot and Dwight in 2007,
+when they faced scalability issues.
+while working with relational database.
+
+the organization that developed MangoDB was originally known as 10gen.
+
+In Feb 2009, they changed their business model and released MangoDB as an open source project.
+
+the organization changed its name in 2013 and now know as MangoDB Inc.
+
+Features of MangoDB:
+===================
+1. MangoDB provides high performance.
+Most of the operations in the MangoDB are faster compared to relational databases.
+2. MangoDB provides auto replication features.
+that allow you to quickly recover data in case of a failure
+3. Horizontal scaling is possible in MangoDB because of sharing.
+sharding is partitioning of data and placing it on multiple machines in such a way that the order of the data is preserved.
+
+How to create db?   //collection==table
+
+-----> use yourdbname
+
+ex:
+
+test> use nmvnjsd
+
+===============================
+how to insert sample data?
+
+mnvnjsd>db.collectionname.insertOne({})
+
+ex:
+nmvnjsd>db.student.insertOne({rno:1001,sname:"Keerthi",mark:98})
+
+insert 10 records
+=================================
+how to view data from collections?
+
+nmvnjsd>db.student.find()
+
+===================================
+how to view all the database?
+
+>show dbs
+
+==================================
+how to view all collection from a db?
+
+>show collections
+
+==================================
+how to change one db to another db?
+
+>use olddbname
+
+=================================
+
+ATS - Automatic Tracking System
+
+=================================
+example:
+
+>mongosh
+>usd jsd
+>db.student.insertOne({rno:1,sname:"Keerthi",mark:100})
+>db.student.insertOne({rno:2,sname:"Hema",mark:100})
+>db.student.find()
+>db.login.insertOne(user:"Keerthi",pwd:"@Keerthi2003")
+>db.login.insertOne(user:"Hema",pwd:"@Hema2003")
+>db.login.find()
+>show dbs
+>show collections
+>db.login.deleteOne({user:"Hema"}) //delete
+>db.login.find()  // show remaining data
+>db.login.deleteMany({}) // delete all data collection
+>db.login.find() // no data
+>db.student.updateOne({sname:"Hema"},{$set:{mark:101}}) //udate mark
+>db.student.find() // hema mark is updated 100 to 101
+>db.student.updateMany({mark:{$gt:49}},{$set:{result:"Pass"}}) // gt: greater then
+>db.student.find()
+>db.student.updateMany({mark:{$lte:49}},{$set:{result:"Pass"}}) // lte: less than or equal to
+>db.student.find()
+>db.student.find().sort({sname:1}) // albhabetic order name
+>db.student.find().sort({sname:-1}) // reverse albhabetic order name
+>db.student.find({mark:{$eq:100}}) // eq: equal to
+>db.student.find({mark:{$ne:100}}) // ne: not equal to
+>db.student.find({mark:{$gte:100}}) // gte: greater than or equal to
+>db.student.find({mark:{$lt:100}}) // lt: less than
+>db.student.find({}{rno:1,sname:1}) //only show rno and sname
+=============================================================
+>db.student.find({},{-id:0,rno:1,sname:1,result:1})
+=============================================================
+
+>exit
+
+
+28.08.2026
+==========
+
+1. MySQL workbench download and  second install (255Mb)
+2. MySQL Community server download and First install (2.1Mb)
+
+MySQL:
+
+Note: update, alter any keyword not working go to edit top left corner click it select preference sql editer scroll down unselect safe.
+
+>create database jsd; // # is a command line example: #create database jsd;
+>usd jsd; // ctrl enter button run the code
+>create table student(rno int primary key,sname varchar(25),mark float);
+>insert into student values(4,'Jayalakshmi',96.9); // insert the value
+>select * from student; // show the database
+>update student set sname='Jayalakshmi G' where rno=4; // update the values
+>alter table student add result varchar(4); // alter is a add collum and rows
+>delete student where sname='jeeva'; // delete jeeva
+>use jsd; // usd created database
+>create table stud(rno int primary key auto_increment,sname varchar(25),mark int); // automatically increase roll numbers(rno)
+>insert into stud(sname,mark) value('vasan',100); // insert value
+>select * from stud; // show the table
+>delete from stud; // delete used deleted all data and specific data
+>truncate table stud; // truncate used for deleted total all data
+>drop table stud; // drop used table fully deleted
+> create table stud(rno int primary key auto_increment,sname varchar(25),mark int)auto_increment=1001; // roll no start from 1001
+>create table bank(cno int primary key, accno int unique,cname varchar(25)) // unique null value accepted and null value not primary key accepted
+>insert into bank(cno,accno,cname) values(null,4004,'ganesh'); // show error null value not primary key accepted
+>insert into bank(cno,accno,cname) values(1004,null,'ganesh'); // null value accepted
+>create table sales(pno int primary key auto_increment,pname varchar(20),salesdate timestamp default current_timestamp); // set date and time
+>insert into sales(pname) values('apple juice'); // insert value
+>insert into sales(pname) values('orang juice'); // insert value
+>select * from sales; // show table data
+
+29.08.2026
+==========
+
+use jsd; // used database
+create table testmark(sno int,sname varchar(25),mark int check(mark>=0 and mark<=100));
+insert into testmark values(1002,'hema',0);
+select * from testmark;
+create table testnull(sno int,sname varchar(25) not null,mark int); // not null;
+insert into testnull values(1112,'tiya',100);
+select * from testnull;
+create table test1(rno int primary key, sname varchar(22), mark int);
+create table test2(rno int primary key, sname varchar(22), mark int,foreign key(rno) references test1(rno));
+
+merge two tables;
+
+#create table test1(rno int primary key, sname varchar(22), mark int);
+#create table test2(rno int primary key, sname varchar(22), mark int,foreign key(rno) references test1(rno));
+insert into test1 values(1001,'basha',100),(1002,'manikkam',10),(1003,'singam',100),(1004,'kantha',99);
+insert into test2 values(1005,'tamil',100);
+select * from test2;
+
+keys:
+1. primary key
+2. foreign key
+3. unique key
+4. default
+5. auto increment key
+
+31.08.2026 / alt+F+a -create new file
+==========
+website: getbootstrap.com
+1. Bootstrap copy of link and script to paste html file (Include via CDN)
+Bootstrap: inbuild styles and template
+
+linux:
+=======
+Oracle VirtualBox->downloads->170MB
+centOS-> ISO file -> 10GB
+
+01.09.2026
+==========
+
+box-shadow: 5px 5px 10px 2px gray; // x y blur padding color
+
+02.09.2026
+==========
+
+Express:
+========
+1. create folder for Express
+2. Create file .js format(E1.js)
+3. cd Expressjs - command
+4. npm install express - command
+
+Expressjs: (API is a path) request is get, response is post
+=========
+
+def: Runtime or Dynamic backend environment.
+
+meaning: To get value for end-user.
+
+application: html/react js(form inputs)
+
+installation:
+d:/project folder>npm install express
+
+two methodS:
+1) get method(default)
+   use: it will show all the form input values in URL
+
+2) post method
+   use: it won't show all the form input values in URL
+   (high security - must know about body-parser)
+
+.gitignore - is used for does not store in github
+this file inside below command
+/node_modules
+node_modules
+
+note: every program if change or update codes run use ths command node E1.js
+
+full programs get methodS
+
+E1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressjs</title>
+</head>
+<body>
+    <form action="http://localhost:8891/testfun" method="get">
+        <input type="text" placeholder="Enter User Name" name="name">
+        <br>
+        <input type="password" placeholder="Enter Password" name="pw">
+        <br>
+        <input type="submit" value="send data to backend">
+        
+        <input type="reset" value="clear">
+    </form>
+</body>
+</html>
+=====================================================================
+
+E1.js
+=====
+var exp=require("express")
+var app=new exp()
+
+//get method api
+app.get("/testfun",(req,res)=>{
+
+    res.send("<h1>Welcome to Express JS</h1>")
+    res.send()
+    
+}).listen(8891)
+
+console.log("port listening at 8891....")
+
+
+====================================================
+
+var exp=require("express")
+var app=new exp()
+var usr,pwd;
+
+//get method api
+app.get("/testfun",(req,res)=>{
+
+    usr=req.query.name;
+    pwd=req.query.pw;
+
+    //res.send("<h1>Welcome to Express JS</h1>")
+    res.write("<h1>User Name:"+usr+"</h1>")
+    res.write("<h1>User Name:"+pwd+"</h1>")
+    //res.send()
+    if(usr==="admin" && pwd==="admin@123")
+    {
+        res.write("<font color='green' size='7'>valid user</font>");
+    }
+    else
+    {
+        res.write("<font color='red' size='7'>invalid user</font>");
+    }
+    res.send()
+    
+}).listen(8891)
+
+console.log("port listening at 8891....")
+=========================================================
+
+connected to mangodb in express
+
+open command prompt
+>mongosh
+>show databases 
+>use jsd 
+>show collections // table
+>db.login.find() // show table or collection data
+
+==========================================================
+
+E2.js ---> E1.html (MangoDB connected)
+
+const {MongoClient}=require("mongodb") // very very important
+var exp=require("express")
+var app=new exp()
+var usr,pwd;
+
+//get method api
+app.get("/testfun",(req,res)=>{
+
+    usr=req.query.name;
+    pwd=req.query.pw;
+
+    var client=new MongoClient("mongodb://127.0.0.1:27017/"); // very very important
+    client.connect() // very very important
+    res.write("<h1>Express and MongoDB connection success<h2>"); // very very important
+
+   res.send()
+   
+}).listen(8891)
+
+console.log("port listening at 8891....")
+
+=================================================================
+
+E2.js ---> E1.html (MangoDB connected and value or data inserted)
+
+const {MongoClient}=require("mongodb") // very very important
+var exp=require("express")
+var app=new exp()
+var usr,pwd;
+
+//get method api
+app.get("/testfun",async(req,res)=>{ // important
+
+    usr=req.query.name;
+    pwd=req.query.pw;
+
+    const data={"usr":usr,"pwd":pwd} // important
+
+    var client=new MongoClient("mongodb://127.0.0.1:27017/"); // very very important
+    client.connect() // very very important
+    res.write("<h1>Express and MongoDB connection success<h2>"); // very very important
+
+    try
+    {
+        const result=await client.db("jsd").collection("login").insertOne(data) // inserted data to mangodb
+        console.log(result)
+        res.write("<h1>Successfully Inserted</h1>") // inserted data to mangodb
+    }
+    catch
+    {
+        console.log("error")
+        res.write("<h1>Error</h1>")
+    }
+
+   res.send()
+   
+}).listen(8891)
+
+console.log("port listening at 8891....")
+
+=================================================================================================================
+linux os:
+========
+linux developed by linus in 1991 sunmacro
+free source
+
+03.09.2026
+==========
+cd Expressjs
+npm install body-parser
+
+body-parser:
+===========
+hiding form input values in address bar.
+
+use:
+  it is high security.(do not show password or any form input value in URL)
+
+installation:
+==============
+d:/projectfloder>npm install body-parser
+
+module import:
+==============
+var bp=require("body-parser")
+
+declearation:
+=============
+  var urlencodeparser=bp.urlencoded({extended:false})
+
+how to use function in post method(body parser)?
+================================================
+note: apply 3 parameters or aruguments
+
+1. userdefined functionname
+2. urlencodeparser
+3. arrow function
+
+app.post("/funname",urlencodeparser,(res,req)=>{
+  
+})
+
+linux:
+
+1. open Virtual machine it load the linux
+2. at top the new import and export, click on new. use red hatos ram 4gb, cpu 2gb, create Virtual mamory(rom)25gb
+3. finish
+
+after finish click on start
+
+user--->application(chrome,vs code)--->os--->kernel--->hardware(CPU,RAM,SSD)
+
+mysql:
+
+order by:
+
+use nmvn;
+select * from students
+order by client_id DESC;
+
+05.06.2026
+==========
+node.js is a server-side platform
+node.js was developed by Ryan Dahl in 2009
+
+node.js is an open source,
+cross-platform Runtime environment
+for developing server-side and networking applications.
+
+node.js applications are written in JavaScript,
+and can be run within the Node.js runtime on
+OS X, Microsoft windows, and linux.
+
+Node.js also provides a rich library of various JavaScript node modules
+which simplifies the development of web applications
+using Node.js to a great extent.
+
+Node.js = Runtime Environment + JavaScript library
+
+where to use Node.js?
+======================
+I/O bound application
+Data Streaming Applications
+Data Intensive Real-time Applications (DIRT)
+JSON APIs based Applications
+single Page Applications.
+
+official website:
+==================
+https://nodejs.org/en/
+
+Features of Node.js
+===================
+
+Asynchronous Programming fast
+
+component of a Node.js applications. A Node.js application consist of the following three important component:
+
+1. Import required modules - We use the require directive to Apache HTTP Server.
+===========================
+
+2.Create server - A server which will listen to client's requests similar to Apache HTTP Server.
+===============
+
+3. Read request and return response -
+==================================
+The Server created in an earlier step will read the HTTP request made by the client which can be a browser or a console and return the response.
+
+Simple program:
+===============
+
+var http = require("http");
+
+1. floder nodejs
+2. cd nodejs
+3. npm init (untill enter package.json created)
+4.npm install http
+5. create file inside Nodejs .gitignore
+  1. \node_modules
+  2. node_modules
+  3. .env
+6. node N1.js
+7. go to chrome http://127.0.0.1:2003/
+
+Example:
+N1.js
+
+const http=require("http")
+http.createServer(function(req,res){
+
+    res.end("<h1>Welcome To Node JS</h1>")
+}).listen(2003)
+console.log("port listening at 2003....")
+
+07.09.2026
+==========
+
+what is Callback?
+callback is an Asynchronous equivalent for a function.
+
+All the APIs of-Node are written in such a way that they support callback
+
+two types:
+=========
+1. Blocking code
+2. Non-Blocking code(-Node.js higly scalable, as it can process a high number of requests
+without waiting or no block for any function to return results.
+
+-content of the file must be parameter)
+
+Event_Loop_Emitter
+==================
+Node.js is a single-threaded application,
+but it can support concurrency via the concept of event and callbacks.
+Every API of Node.js is Asynchronous and being single-threaded,
+they use asyncvfunction calls to maintain concurrency.
+Node thread keeps an event which signals the event-listener function to execute.
+
+callback functions are called when an Asynchronous function returns its result
+Node.js has multiple in-built events available through events module and
+EventEmitter class which are used to bind events and event-listeners.
+
+EventEmitter provides multiple properties like on and emit.
+on property is used to bind a function with the event and
+emit is used to fire an event.
+
+node:
+=====
+emit--------->fire event(calling function)
+  like client
+  one or more request send to on proparties
+
+on----------->bind event(called function)
+  like server
+  only one
+  purpose: send response to client(emit)
+
+
+how to install event?
+
+goto terminal
+set your project floder
+d:/project floder>npm install events
+
+linux:
+======
+
+terminal ip a or ip addr
+1. putty download and install
+2. check the ip in the VirtualBox
+3. to set ip address in the putty
+4. enter user name linux
+5. then enter password
+6. check command like (whoami, su root, su user)
+
+
+
+ip a
+ip addr
+ifconfig
+
+su switch user
+whoami
+ctrl + L clear screen
+ctrl + c cut
+ctrl + Shift + (+) zoom in
+
+09.09.2026
+==========
+linux is a casesenecetive
+linux is runing CLI
+windows is runing GUI
+linux kernel is not os, small part of os
+files and folder rename using underscore not using space
+root user can create, edit, delete, update can change any configuration
+super user can delete entire os.
+
+using puTTY Software connect the server linux ip address into windows
+ip
+user name
+passward
+
+
+command prompt or terminal
+ 1. user name & prompt symbol
+ 2. super user(root) # prompt symbol - host
+
+ # whoami
+ # passwd root - this command used for password change
+
+ centOS
+
+ common linux server Software
+
+  Web Server:
+    Apache
+    Ngnix
+  
+  DataBase Server
+    MySQL
+    PostgreSQL
+    MariaDB
+
+    it is used store data storage/manage
+
+  File Server:
+    it is used to share a Network file
+
+  SSH Server
+    it is used to access a linux server as remote
+
+    ssh 
+    common implementation:
+    OpenSSH
+
+  Main Server:
+    it is a software to handling Email sending/receiving
+
+Introduction to Linux Unit:
+=========================
+Operating System
+      |
+kernel
+    |
+linux distribution
+    |
+ubuntu / Debin / fedora / arch
+      |
+software + package Manager
+      |
+linux desktop / server / embedded device
+
+Important Terms:
+===============
+OS ->computer resourse E manage saiyum system software
+Kernal -> os- oda core.
+Linux karnel -> open source -> Kernal
+Distribution->Kernal+tools+application+package manager etc.
+open source ->source code available order an open source license
+package manager->
+repository
+server
+
+simple comparsion:
+=====================
+
+FEATURE	                    ROOT USER            	NORMAL USER
+system access	            almost everything	        limited
+modify system files	          yes               	no(usally)
+install software	            yes	                no(sudo needed)
+delete system file	          yes	                     no
+access other user's file	    yes	                  no(usally)
+create files in home	        yes                     	yes
+UID	                            0                 	usally 1000+
+studo needed	                  no	                  yes(yes admin tasks) sub-->temporary access
+
+
+Basic Navigation Command:
+=========================
+1. pwd ===========>Current directory paaka 
+2. ls  ===========>to see the files and folders
+3. ls -l  ========>Detailed List  
+4. ls -a  ========>To see all the files including hidden files also 
+5. ls -lh  =======>File size and readable format
+6. cd folder =====>to go folder
+7. cd..  =========>one level back
+8. cd /  =========>Root directory
+9. cd ~  =========>Home Directory
+10. clear  =======>Terminal Clear 
+11. history ======>Previous Command 
+12. whoami  ======>Current User
+13. hostname  ====>Computer name
+14. date =========>current date and time
+15. cal ==========>calender
+16. su ===========>switch user
+17. touch text.txt ===> is the create file
+18. cat text.txt =====> see the file content
+19. echo "Hello Keerthi">content.txt ====> write the content using coomand line
+
+
+touch     =====>create
+cat =======>view
+echo ========>
+ls ==========>details
+rm ============> remove or delete
+
+10.09.2026
+==========
+java program test:
+
+1) input: 
+    enter your name: KEERTHIVASAN SALEM
+    output:
+      a is found at index(s):8,10,14
+    ================================
+    output:
+      z is not founded
+
+Array:
+=====
+  definition:
+    a set of value arranged in sequential of signal name variable
+
+set of value--->   {val1,val2,........}
+sequential arrange----> 0   1   2  ........
+single name var ------> only one variable
+same data type ----> {11,12,13}
+                     {'a','S','c','d','%'}
+                     {"Keerthi","jeeva","nishath","Srikaath"}
+
+1) single or one dimensional array
+2) two or multi dimensional array
+
+1) single dimensional array initialization method:
+
+  datatype variablename[]={value1,value2,.......}
+
+  ex:
+  int mark[]={44,66,77,88,88};
+  or
+  int[] marks={44,66,77,88,99};
+
+  meaning:
+
+  mark[0] -----> 44
+  mark[1] -----> 66
+  mark[2] -----> 77
+  mark[3] -----> 88
+  .............
+
+  array inbuilt methods:
+  marks.length; (note don't use length())
+
+
+Home work:
+=========
+1. find max of array
+2. find min of array
+3. sum of array
+4. sum of even no. in an array, 
+5. display 
+
+Run time another name Dynamic
+compile time another name static
+
+linux:
+======
+file system structure
+1. /bin -> User level commands(cat,cp,cd,is,etc)
+2. /sbin -> System/Filesystem level command(booting,restoring,recovering,and/or repairing the system)
+3. /etc -> configuration Files
+4./dev -> Device files(Disc,CDROM,Flash drive)
+5./proc -> Running process
+6./var -> System Logs
+7./tmp -> Directory for Temporary Files
+===================================
+8./usr -> User programs and commands
+9./home -> Directory for User
+10./boot -> Contains files used by booted loader (grub.cfg)
+11./lib -> C-programming files needed by command s and apps
+12./opt -> optional add-on apps (Not part of OS)
+13./mnt -> To mount removable media manually
+14./media -> To mount external hardisk Flaskdrive, CDROM
+15./srv -> Site Specific data (FTP,WWW)
+
+linux terminal:
+1. $cd / - Moves to the root directory.
+2. $pwd - Displays the present working directory.
+3. &ls - Lists the files and directories in the current location.
+
+11.09.2026
+==========
+
+OOPs: (very Important)
+=====
+
+OOPS: object oriented programming structure
+
+object: instance of the class.
+
+class: class is user defined data type.
+
+       class is blue print.
+       class is a template.
+       class is a common structure and behaviour to all objects.
+       class is a hierarchy.
+
+syntax: class
+
+  class classname
+  {
+    variables
+    methods()
+  }
+
+syntax: object
+
+  classname objectname = new classname(parameters or args)
+
+syntax: how to access class mamber(variables+methods)
+
+  objectname.variablename;
+  objectname.methodname();
+
+  note: here (.) is membership operator.
+
+ctrl + space + enter - automatically create header file cursor on Scanner in java program
+
+homeWork:
+=========
+class member
+  1) rno     int
+  2)sname    string
+  3)gender   char  (m,f)
+  4)mark     float
+  5)ismarried boolean (true,false)
+
+=============================================
+1) get n number of student
+2) count total no. of female students  ex: 7
+3) display centum students list if(s[i].mark==100)
+4) display only married students student rno and sname if(s[i].ismarried==true)
+===============================================================================
+
+linux:
+======
+file and directories command:
+====================
+Create:
+1. touch file.txt 
+  - new file created
+2. mkdir test
+  - create new floder
+3. mkdir -p project/src/components
+  - nested floder creation
+
+Copy:
+1. cp file.txt backup.txt
+  - copy the file content into another file
+2. 
+
+Move:
+
+Reading files:
+1. cat
+2. less
+3. more
+4. head
+5. tail
+
+12.09.2026
+==========
+constructor:
+============
+
+	constructor is a special member method. it is used to initialize object values.
+
+types of constructor:
+
+	1) default constructor or null constructor
+	2) argument or parametarized constructor
+	3) copy constructor
+	4) overloading constructor (polymorphism)
+
+
+rules of constructor:
+=======================
+
+	*) classname and constructor name should be equal.
+	*) constructor should not be private access
+	*) constructor has no return type (ie. dont use void)
+	*) constructor called at the time of object creation.
+
+inheritance:
+============
+	The mechanism of deriving derive class from the old one is known as inheritance.
+
+	purpose: reusability of code
+
+types of inheritance:
+
+1) single inheritance
+	only one base class and only one derive class is known as single inheritance.
+
+2) multiple inheritance
+	more than one base class and only one derive class (java does not support multiple inheritance so we can use interface concepts in next chapter)
+
+3) multilevel:
+	more than one level .
+
+4) hierarchical inheritance:
+	it is tree format : only one base class and more derive class.
+
+5) hybrid inheritance:
+	combination of any two inheritance.
+
+class Daddy
+{
+
+}
+class Mummy
+{
+
+}
+class Daughter extends  Daddy,Mummy
+{
+    
+}
+public class Multiple {
+    
+}
+
+interface:
+==========
+
+	overriding purpose
+
+	syntax:
+	
+	interface interfacename1
+	{
+		variable define only; // should not private or protected
+		ex: int mark=100;
+		method incomplement only;
+		ex:
+		void dis1();
+		
+	}
+
+	interface interfacename2
+	{
+
+		void dis2();
+	}
+	class classname implements interface1,interface2
+	{
+		//override methods
+		public void dis1()
+		{
+
+		}
+		public void dis2()
+		{
+
+		}
+	}
+
+abstract class:
+================
+
+	def: set of complete and incomplete methods.
+
+	purpose: override purpose
+
+	syntax:
+	abstract class classname
+	{
+		variable declare + define;
+		method complete + incomplete;
+	}
+
+	note: we can't create object to abstract class.
+
+linux:
+======
+SEARCH COMMANDS:
+================
+find /home -name "file.txt"========>find files
+find / -name "#.log" =============>peryaril files to search
+find . -type f   ==============> log in la mudiyura ella files um theda
+find . -type d ==============>to find directories / folders
+grep "error" file.txt==========> search files inside text
+grep -i "error" file.txt ======>file kula iruka specific words theda use aagudhu
+grep -r "error" /var/log/ ======>folder la iruka ella file layum recursive ahh theda use aagudhu
+which python ===========>to search where is python command
+which java =============>to search where is java command 
+which ls =========> to search where is list directory 
+ctrl + / q =======>Exit 
+
+TEXT EDIT COMMANDS:
+===================
+vi filename.txt
+    1. i =======>Insert mode
+    2. ESC =====>Exit insert mode
+    3. :w ========>save
+    4. :q ========>quit
+    5. :wq =======>save and quit
+    6. :q! =======>quit without saving
+
+whoami =====>to know user
+id =========>to show user id
+who =========>who are all logined
+w ===========>logged users enna senjurukanganu paka 
+users =======>to see all logged users
+useradd username ========> to add user
+
+15.09.2026
+==========
+ what is abstraction in java?
+  only showing essential or important information. hiding internal details.
+
+real time example:
+    driver:
+    drivee knowing only how to apply break, horn, accellator, .....
+
+    atm machine:
+
+    tv remote:
+
+ what is encapsulation in java?
+    wrapping of data.
+
+    technical: class (var+methods)
+
+ real time examples? 
+    ex:
+    tube tablet
+  
+access specifier:
+
+private----------> 
+public----------->
+protected-------->
+default---------->
+
+package or pack or floder (note: package name should small and class name first letter Should be captat)
+
+                        pack1                                   pack2
+                    base      drivee        main             base              drive
+private             yes         no            no              no                no
+public              yes         yes           yes             yes               yes
+protected           yes         yes           yes             no                yes
+default             yes         yes           yes             no                no
+
+Exception handling:
+
+def: To avoid runtime or Dynamic error.
+
+types:
+  1) checked Exceptions (compile time)
+  2) unchecked Exceptions (runtime)
+
+inbuilt Exception:
+  -ArithmeticException (0 / 0 any/0)
+  -InputMismatchException (wrong input format)
+  -ArrayIndexOutOfBoundsException (out of range)
+  -NegativeArraySizeException(we can't declare -ve size)
+  -FileNotFoundException
+custom or userdefined Exception:
+  -AgeException
+  -KeerthiException
+  -PasswordException
+ note: Exception handling only using runtime find runtime errors.
+syntax:
+  try
+  {
+    //write java code
+  }
+  catch(Exceptionname obj)
+  {
+    //only if error found in try block
+  }
+  finally
+  {
+    //optional
+    //it will work always when error found or not.
+  }
+note: if you use try keyword must use catch keyword also default structure.
+
+public class CustomException {
+    public static void main(String[] args)throws Exception { // automatically identify errors
+        new AgeException(); 
+    }
+    
+}
+
+Linux:
+=======
+
+rm filename - 
+
+17.09.2026
+==========
+
+JDBS:
+=====
+ 
+ Using Eclipse ide(Eclipse IDE for Java Developers - 2026-06)
+
+ google search (download Eclipse for java developers)
+ Eclipse (144Mb) 
+ google search (download mysql connector java 8.0 33 jar)
+ mysql connector (4.83mb)
+
+ to run  Eclipse?
+ ctrl+f11
+ or
+ green color play button
+
+ then
+
+ 1. database right click proparties then (delete the file module-info.java)
+ 2. java Build Path
+ 3. goto libraries
+ 4. select the folder mysql connector java 8.0 33 jar
+ 5. open
+ 6. apply
+
+package databasework;
+
+public class P1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver accepted");
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Reason:"+e.toString());
+		}
+	
+	}
+}
+
+
+com.mysql.cj.jdbc.Driver - package(mysql connector java 8.0 33 jar)
+com - folder
+mysql - folder
+cj - folder
+jdbc - folder
+Driver - Class
+
+very important topics:
+======================
+
+package databasework;
+import java.sql.*;------------------------------> very important this one
+public class P1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver accepted");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jsd", "root", "12345");-------> very important this one
+			System.out.println("Connection Success");
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Reason:"+e.toString());
+		}
+	}
+}
+
+show table values:
+==================
+package databasework;
+import java.sql.*;
+public class P1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver accepted");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jsd", "root", "12345");
+			System.out.println("Connection Success");
+			
+			// --- data retrive from mysql table name: student
+			
+			Statement st=con.createStatement();
+			ResultSet rs=st.executeQuery("select * from student");
+			while(rs.next())
+			{
+				System.out.println(rs.getString(1)+"    "+rs.getString(2)+"    "+rs.getString(3)+"    "+rs.getString(4));
+			}
+			rs.close();st.close();con.close();
+			//======================end==========================
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Reason:"+e.toString());
+		}
+	}
+}
+
+
+inserted values:
+================
+package databasework;
+import java.sql.*;
+import java.util.Scanner;
+public class P2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter rno sname mark result");
+		int rno=scan.nextInt();
+		String sname=scan.next();
+		float mark=scan.nextFloat();
+		String result=scan.next();
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver accepted");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jsd", "root", "12345");
+			System.out.println("Connection Success");
+			
+			// --- data insert into from mysql table name: student
+			
+			Statement st=con.createStatement();
+			int res=st.executeUpdate("insert into student values("+rno+",'"+sname+"',"+mark+",'"+result+"')");
+			if(res==1)
+			{
+				System.out.println("Successfully Inserted");
+			}
+			else
+			{
+				System.out.println("Not Inserted");
+			}
+			st.close();con.close();
+			
+			//======================end==========================
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Reason:"+e.toString());
+		}
+	}
+}
+
+other notes: REST API is a axios
+
+Delete the table row:
+=====================
+package databasework;
+import java.sql.*;
+import java.util.Scanner;
+public class P3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter rno to be deleted:");
+		int rno=scan.nextInt();
+
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver accepted");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jsd", "root", "12345");
+			System.out.println("Connection Success");
+			
+			// --- delete data
+			
+			Statement st=con.createStatement();
+			int res=st.executeUpdate("delete from student where rno="+rno);
+			if(res==1)
+			{
+				System.out.println("Successfully Deleted");
+			}
+			else
+			{
+				System.out.println("Not Deleted because record not found");
+			}
+			st.close();con.close();
+			
+			//======================end==========================
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Reason:"+e.toString());
+		}
+	}
+}
+
+linux:
+======
+ps -p 2929
+ps -p 2929 v-f
+
+program
+  |
+  | execute
+  |
+process
+  |
+------------------
+  |               |
+application  |   DAEMON
+  |          |
+user interact   background
+
+
+
+process
+  A process is an instance of a program that is Currently being executed.
+
+Application
+  An application is a user-interactive process that provides functionality directly to the user.
+
+DAEMON
+  A deamon in a background process that normally operates without direct user interaction.
+
+Service
+  A service is a process or group of processess that provides
+
+Program  = Code/software stored on system
+Process  = Running instance of a program
+Application = User-interactive process
+Daemon   = Background, non-interactive process
+Service  = Provides functionality to clients
+PID      = Process ID
+top      = Live process/resource monitoring
+R        = Running
+S        = Sleeping
+%CPU     = CPU usage
+%MEM     = Memory usage
+Load Average = 1, 5, 15 minute workload averages
+
+1. top
+Running processes + CPU + RAM usage live-a பார்க்க.
+top
+Useful keys inside top:
+q       → Exit
+Shift+P → CPU usage based sort
+Shift+M → Memory usage based sort
+
+2. ps
+Running processes-oda snapshot பார்க்க.
+ps
+More detailed:
+ps -f
+All users-oda processes:
+ps aux
+Example
+ps aux
+Output-la:
+USER   PID   %CPU   %MEM   COMMAND
+root   123    0.0    0.5   sshd
+user   456    2.1    1.2   firefox
+
+3. ps -ef
+Full process list பார்க்க commonly used command.
+ps -ef
+Important columns:
+UID
+PID
+PPID
+CMD
+PID find panna
+ps -ef | grep ssh
+Example:
+root   1234   ...   sshd
+Here:
+PID = 1234
+
+4. pgrep
+Process name வைத்து PID find panna.
+pgrep sshd
+Example:
+1234
+Multiple PIDs irundha:
+1234
+1456
+5. pidof
+Program name-ku corresponding PID find panna.
+pidof sshd
+Example:
+1234
+6. pstree
+Processes parent-child relationship-la பார்க்க.
+pstree
+More useful:
+pstree -p
+-p → PID show pannum.
+Example:
+systemd(1)
+ ├─sshd(1234)
+ │   └─bash(1250)
+ └─NetworkManager(800)
+7. systemctl
+Linux services manage panna most important command.
+systemctl
+8. Check Service Status
+Example: SSH service.
+systemctl status sshd
+You'll see:
+Active: active (running)
+Meaning:
+SSH service currently running.
+9. Start a Service
+sudo systemctl start sshd
+Meaning:
+sshd service-a start pannum.
+
+
+10. Stop a Service
+sudo systemctl stop sshd
+Meaning:
+Running SSH service-a stop pannum.
+⚠️ Remote SSH-la connected irukkumbodhu sshd stop panna connection affect aagalam.
+11. Restart a Service
+sudo systemctl restart sshd
+Meaning:
+Service stop + start.
+Configuration change pannitu service restart panna commonly use pannuvanga.
+12. Reload a Service
+sudo systemctl reload sshd
+Meaning:
+Service-a completely stop pannama configuration reload panna request.
+But every service reload support pannum-nu guarantee illa.
+13. Enable Service
+Boot time-la automatically service start aaganumna:
+sudo systemctl enable sshd
+Meaning:
+System Boot
+    ↓
+sshd automatically starts
+14. Disable Service
+Boot-la automatically start aaga koodadhuna:
+sudo systemctl disable sshd
+Important:
+disable usually affects future boot, not necessarily the service currently running.
+Current running service-a stop panna:
+sudo systemctl stop sshd
+15. Enable + Start Together
+sudo systemctl enable --now sshd
+Meaning:
+Enable → future boot-la start
++
+Start  → ippo immediately start
+16. Check if Service is Active
+systemctl is-active sshd
+Output:
+active
+or:
+inactive
+17. Check if Service is Enabled
+systemctl is-enabled sshd
+Output:
+enabled
+or:
+disabled
+18. List Running Services
+systemctl list-units --type=service
+Only currently active services:
+systemctl list-units --type=service --state=running
+19. List All Installed Service Files
+systemctl list-unit-files --type=service
+Idhula:
+Enabled - AUTOMATIC RUNNING
+Disabled - NOT ABLE TO RUN
+Static - Direct-ah enable panna mudiyadhu.
+Usually another service/target depend aagumbodhu start aagum 
+Masked -
+pondra states paakalaam
+
+State
+Simple meaning
+enabled
+Boot-la automatically start
+disabled
+ Boot-la automatically start aagadhu
+masked
+Start panna blocked
+static
+Direct enable illa; dependency moolama start aagalam
+
+20. Find Failed Services
+systemctl --failed
+or:
+systemctl list-units --failed
+Useful when troubleshooting boot/service problems.
+21. View Service Logs
+journalctl service logs பார்க்க useful.
+journalctl -u sshd
+Recent logs:
+journalctl -u sshd -n 20
+Live logs:
+journalctl -u sshd -f
+-f = continuously follow new log entries.
+Exit:
+Ctrl + C
+22. kill
+PID தெரிந்த process-a terminate panna.
+Suppose:
+PID = 1234
+Then:
+kill 1234
+Force kill
+kill -9 1234
+⚠️ kill -9 forceful. Normal kill work aagala na mattum use pannradhu better.
+23. killall
+Process name வைத்து terminate panna:
+killall firefox
+⚠️ Same name-la multiple processes irundha multiple processes affect aagalam.
+
+24. nice
+Process priority set panna.
+Example:
+nice -n 10 command
+Example:
+nice -n 10 myprogram
+25. renice
+Already running process-oda priority change panna.
+renice 10 -p 1234
+Here:
+10   → nice value
+1234 → PID
+26. CPU Load Practice
+CPU load observe panna:
+Terminal 1
+yes > /dev/null
+Terminal 2
+top
+yes process CPU usage increase pannum.
+Stop Terminal 1:
+Ctrl + C
+Then top-la CPU/load change observe pannunga.
+Important Commands Cheat Sheet
+PROCESS COMMANDS
+────────────────────────────────
+top
+ps
+ps aux
+ps -ef
+pgrep <process>
+pidof <process>
+pstree -p
+SERVICE COMMANDS
+────────────────────────────────
+systemctl status <service>
+systemctl start <service>
+systemctl stop <service>
+systemctl restart <service>
+systemctl reload <service>
+systemctl enable <service>
+systemctl disable <service>
+systemctl enable --now <service>
+systemctl is-active <service>
+systemctl is-enabled <service>
+systemctl list-units --type=service
+systemctl --failed
+
+LOG COMMANDS
+────────────────────────────────
+journalctl -u <service>
+journalctl -u <service> -n 20
+journalctl -u <service> -f
+PROCESS CONTROL
+────────────────────────────────
+kill <PID>
+kill -9 <PID>
+killall <process>
+CentOS-la practice-ku example
+systemctl status sshd
+systemctl is-active sshd
+systemctl is-enabled sshd
+ps -ef | grep sshd
+pgrep sshd
+top
+Core-a remember pannunga:
+ps/top       → Processes பார்க்க
+systemctl    → Services manage பண்ண
+journalctl   → Service logs பார்க்க
+kill         → Process terminate பண்ண
